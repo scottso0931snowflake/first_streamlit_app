@@ -1,5 +1,6 @@
 import streamlit
 import pandas
+import ingram
 
 streamlit.title('My Mom\'s New Healthy Dinner')
 
@@ -18,3 +19,5 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 # Display the table on the page.
 streamlit.dataframe(fruits_to_show)
+
+streamlit.text('product price')
